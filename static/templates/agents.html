@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url("static/images/black.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                color: white; 
+            }
+            
+            .rectangle {
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .rectangle h2, .rectangle a {
+                color: white; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>List of agents</h1>
+        {% for i in agents %}
+        <div class="rectangle">
+            <h2>Agent number : {{ get_agent_number(i) }}</h2>
+            <h2>Agent IP : {{ ips[agents.index(i)][0] }}</h2>
+            <h2>Port Number : {{ ips[agents.index(i)][1] }}</h2>
+            <a href="http://127.0.0.1:5000/{{i.name}}/control">Control Agent </a>
+        </div>
+        {% endfor %}
+    </body>
+</html>
