@@ -76,11 +76,7 @@ def server_socket():
         t.start()
 def get_agent_number(thread):
     thread_name = thread.name
-    return re.search(r'\d+', thread_name).group()
-def end_thread_connection(thread):
-    stop_flag = False
-
-    return 
+    return re.search(r'\d+', thread_name).group() 
 @app.before_request
 def init_server():
     s=threading.Thread(target=server_socket)
