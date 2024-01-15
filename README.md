@@ -15,16 +15,18 @@ Follow these steps to set up and run the C2 server on your local machine:
 
 1. **Clone the Repository:** : https://github.com/abd3lgh4f0r/C2_Server.git
 2. **Install Dependencies:** :  pip install -r requirements.txt
-3. **Run the Server Script:**: Run the Server Script
+3. **Run the Server Script:**: python server.py
 4. **Access the Web Interface** : Open your web browser and navigate to http://localhost:5000 (or the specified port in your configuration)
 5. **Connect Agents** : python client.py
 
 ## Screenshots
 
-Here are some screenshots showcasing the C2 server and its web interface:
-![Web Interface](demo/web_interface.png)
-*Screenshot of the C2 server's web interface.* 
+Here are some screenshots showcasing the C2 server:
 
-![Web Interface](demo/web_interface.png)
+- **Web Interface:**
+  ![Web Interface](demo/web_interface.png)
+  *Screenshot of the C2 server's web interface.*
 
-*Screenshot of the command line interface in the C2 server.*
+- **Command Line Interface:**
+  ![Command Line Interface](demo/command_line.png)
+  *Screenshot of the command line interface in the C2 server.*
