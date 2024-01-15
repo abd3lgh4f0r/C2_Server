@@ -1,5 +1,5 @@
 # C2 Server with Flask Web Interface
-This project is a Command and Control (C2) server implemented in Python, featuring a sophisticated web interface developed with Flask. This  server is used  to manage  multiple agents, seamlessly executing commands, and maintaining control through efficient multithreading.
+This project is a Command and Control (C2) server implemented in Python, featuring a web interface developed with Flask. This  server is used  to manage  multiple agents, executing commands, and maintaining control through efficient multithreading.
 
 # Key Features
 - **Web Interface**: User-friendly Flask-based interface for seamless monitoring and interaction with the C2 server.
