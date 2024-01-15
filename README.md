@@ -6,7 +6,7 @@ This project is a Command and Control (C2) server implemented in Python, featuri
 
 - **Multithreading**: Ensures optimal performance by adeptly handling multiple agents concurrently.
 
-- **Command Execution**: Facilitates secure and controlled execution of commands on connected agents, empowering ethical hacking and penetration testing activities
+- **Command Execution**: Facilitates secure and controlled execution of commands on connected agents.
 
 
 ## How to Run
